@@ -39,11 +39,15 @@ class Employee {
 Object occupies space but a class does not.
 
 # Main Features of OOPS
-- **Encapsulation** → Process of binding data members and methods of a program together to do a specific job.
-  - **Data Hiding** → Process of hiding unwanted information.
-  - **Data Binding** →  Process of binding the data members and the methods together as a whole.
-- **Polymorphism** → Process by which some code data methods behaves differently under different circumstances and concepts.
-  - **Compile Time Polymorphism** → (Static or Early Binding) Compiler decides what shape or value has to be taken by the entity in the picture.
-  - **Run Time Polymorphism** →  (Dynamic or Late Binding) Can't be decided by compiler, Therefore what shape or value has to be taken depends upon the execution.
-- **Inheritence** → Mechanism by which an object or class *(referred to as child)* is created using the defenition of another object or class *(referred to as parent)*. Helps in code reuse.
-- **Abstraction** → Method of hiding unnecessary details from the necessary ones
+### Encapsulation
+Process of binding data members and methods of a program together to do a specific job.
+- **Data Hiding** → Process of hiding unwanted information.
+- **Data Binding** →  Process of binding the data members and the methods together as a whole.
+### Polymorphism
+Process by which some code data methods behaves differently under different circumstances and concepts.
+- **Compile Time Polymorphism** → (Static or Early Binding) Compiler decides what shape or value has to be taken by the entity in the picture.
+- **Run Time Polymorphism** →  (Dynamic or Late Binding) Can't be decided by compiler, Therefore what shape or value has to be taken depends upon the execution.
+### Inheritence
+Mechanism by which an object or class *(referred to as child)* is created using the defenition of another object or class *(referred to as parent)*. Helps in code reuse.
+### Abstraction 
+Method of hiding unnecessary details from the necessary ones
