@@ -117,3 +117,51 @@ class ABC {
 | Default Constructor | No | Initializes object with default values |
 | Parameterized Constructor | Yes | Initializes object with specific values |
 | Copy Constructor | Object as Parameter | Creates a new object by copying another object |
+
+
+# Destructor
+Contrary to constructors, which initialize objects and specify space for them.
+Destructors are also special methods. But destructors free up the resources and memory occupied by an object. They are automatically called when an object is destroyed.
+
+
+# Are class and structure same?
+No, Class and Structure are not same. They look similar, but they have differences that make them apart.
+For Example, the struct is saved in stack memory, whereas the class is saved in the heap memory.
+Data Abstraction cannot be achieved with the help of Structures, but with class, Abstraction is majorly used.
+
+
+# Explain Inheritence with example
+Inheritence is one of the major feature of OOPS, by which an entity inherits some characteristics and behaviours of some other entity and makes them their own. Helps in code reuse.
+
+Example: Let's take 3 person - Developer, Manager, HR. They are entirely different from one another with their own specific characteristics and behaviour. But in all three, you will find some common elements, like `empID`, `empName`, `empSalary`, etc. Though these elements are used by different persons, still they have their own features which are common among all the employee. This is achieved using Inheritence. The Developer, Manager, and the HR have all inherited the features like `empID`, `empName`, `empSalary`, etc. and used them as their own. Due to this they did not have to create these components from scratch. Facilitating CODE REUSE.
+
+### Limitations:
+With more powers comes more complications. It is very powerful but it has limitations too. It needs more time to process as it has to navigate through multiple class for its implementation. Also the class involved in inheritence, the base class and the child class, are very tightly coupled together. So if one needs to make some changes, they might need to do nested changes in both the classes. It is very complex in implementation, so if not correctly implemented then it can lead to unexpected errors or incorrect outputs.
+
+### Types of Inheritence:
+- Single Inheritence
+- Multiple Inheritence
+- Multi-level Inheritence
+- Hierarchical Inheritence
+- Hybrid Inheritence
+
+
+# Interface
+It refers to a special type of class, which contains methods, but not their defenition. Only the declaration of methods is allowed inside an interface. To use an interface, you cannot create objects. Instead, you need to implement that interface and define the methods of their implementation.
+
+# Overloading and Overriding
+Overloading is a compile-time polymorphism feature in which an entity has multiple implementation with the same name. For Example: Method Overloading or Operator Overloading.
+
+Overriding is a runtime polymorphism in which an entity has the same name, but its implementation changes during execution. For Example: Method Overriding.
+
+# How is data abstraction accompalished?
+Data Abstraction is accompalished with the help of abstract methods or abstract classes.
+
+
+# Abstract Class
+Abstract Class is a special class containing abstract methods. The significance of abstract class is that the abstract method inside it are not implemented and only declared. So as a result, when a subclass inherits the abstract class and need to use its abstract methods, they need to define and implement them.
+
+
+# Difference b/w Abstract class and Interface
+Interface and Abstract class both are special types of classes that contain only the method declaration and not their implementation. But interface is entirely different from abstract class. The main difference between the two is that, when an interface is implemented, the subclass must define all its methods and provide its implementation. Whereas when abstract class is inherited, the subclass does not need to provide the definition of its abstract method, until and unless the subclass is using it.
+Also, an abstract class can contain abstract methods as well as non-abstract methods.
