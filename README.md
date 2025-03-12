@@ -64,7 +64,7 @@ Now here, the method called after `new` keyword - `MyClass()`, is the constructo
 This will help to instantiate the member data and methods and assign them to the object `myClassObj`.
 
 ### Types of Constructor
-#### Default Constructor (No-Argument Constructor):
+#### 1. Default Constructor (No-Argument Constructor):
 - It does not take any parameters.
 - It initializes objects with default values.
 - If no constructor is defined, Java provides a default constructor implicitly.
@@ -79,7 +79,7 @@ class ABC {
 }
 ```
 
-#### Parameterized Constructor:
+#### 2. Parameterized Constructor:
 - It takes arguments to initialize object variables with specific values.
 - Useful for setting custom values at the time of object creation.
 
@@ -93,7 +93,7 @@ class ABC {
 }
 ```
 
-#### Copy Constructor:
+#### 3. Copy Constructor:
 - It creates a new objects by copying values from another object of the same class.
 - Java does not provide built-in copy constructor so we need to define it manually.
 
