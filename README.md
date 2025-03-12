@@ -54,7 +54,7 @@ Method of hiding unnecessary details from the necessary ones
 
 
 # Constructor
-There name is same as the class name. They server a special purpose of initializing the object.
+There name is same as the class name. They serve a special purpose of initializing the object.
 Here is the example of the Syntax:
 ### Example
 ```java
