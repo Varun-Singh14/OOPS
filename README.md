@@ -51,3 +51,69 @@ Process by which some code data methods behaves differently under different circ
 Mechanism by which an object or class *(referred to as child)* is created using the defenition of another object or class *(referred to as parent)*. Helps in code reuse.
 ### Abstraction 
 Method of hiding unnecessary details from the necessary ones
+
+
+# Constructor
+There name is same as the class name. They server a special purpose of initializing the object.
+Here is the example of the Syntax:
+### Example
+```java
+MyClass myClassObj = new MyClass();
+```
+Now here, the method called after `new` keyword - `MyClass()`, is the constructor of this class.
+This will help to instantiate the member data and methods and assign them to the object `myClassObj`.
+
+### Types of Constructor
+#### Default Constructor (No-Argument Constructor):
+- It does not take any parameters.
+- It initializes objects with default values.
+- If no constructor is defined, Java provides a default constructor implicitly.
+
+##### Example:
+```java
+class ABC {
+  int x;
+  ABC() {
+    x = 0;
+  }
+}
+```
+
+#### Parameterized Constructor:
+- It takes arguments to initialize object variables with specific values.
+- Useful for setting custom values at the time of object creation.
+
+##### Example:
+```java
+class ABC {
+  int x;
+  ABC(int y) {
+    x = y;
+  }
+}
+```
+
+#### Copy Constructor:
+- It creates a new objects by copying values from another object of the same class.
+- Java does not provide built-in copy constructor so we need to define it manually.
+
+##### Example:
+```java
+class ABC {
+  int x;
+  ABC(int y) {
+    x = y;
+  }
+  // Copy Constructor
+  ABC(ABC abc) {
+    x = abc.x;
+  }
+}
+```
+
+### Key Differences:
+| Constructor Type       | Parameters | Purpose                    |
+|------------------------|------------|----------------------------|
+| Default Constructor | No | Initializes object with default values |
+| Parameterized Constructor | Yes | Initializes object with specific values |
+| Copy Constructor | Object as Parameter | Creates a new object by copying another object |
