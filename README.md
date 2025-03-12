@@ -44,7 +44,7 @@ Process of binding data members and methods of a program together to do a specif
 - **Data Hiding** → Process of hiding unwanted information.
 - **Data Binding** →  Process of binding the data members and the methods together as a whole.
 ### Polymorphism
-Process by which some code data methods behaves differently under different circumstances and concepts.
+Process by which some code data methods behaves differently under different circumstances and contexts.
 - **Compile Time Polymorphism** → (Static or Early Binding) Compiler decides what shape or value has to be taken by the entity in the picture.
 - **Run Time Polymorphism** →  (Dynamic or Late Binding) Can't be decided by compiler, Therefore what shape or value has to be taken depends upon the execution.
 ### Inheritence
