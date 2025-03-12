@@ -165,3 +165,17 @@ Abstract Class is a special class containing abstract methods. The significance 
 # Difference b/w Abstract class and Interface
 Interface and Abstract class both are special types of classes that contain only the method declaration and not their implementation. But interface is entirely different from abstract class. The main difference between the two is that, when an interface is implemented, the subclass must define all its methods and provide its implementation. Whereas when abstract class is inherited, the subclass does not need to provide the definition of its abstract method, until and unless the subclass is using it.
 Also, an abstract class can contain abstract methods as well as non-abstract methods.
+
+# Exception
+A special event which is raised during the execution of a program at runtime, that brings the execution to a halt. The reason for the expception is mainly due to a position in the program, where the user wants to do something for which the program is not specified, like undesirable input.
+
+
+# Exception Handling
+No one wants its Software to fail or crash. Exceptions are the major reasons for the software failure. The exceptions can be handled in the program beforehand and prevent the execution from stopping. This is known as exception handling.
+`try-catch` is the most common method used for handling exceptions in the program.
+
+
+# Garbage Collection
+OOPS revolves around the entities like objects. Each object consumes memory and there can be multiple objects of a class. So if these objects and their memories are not handled properly, then it might lead to certain memory related errors and cause system failure.
+
+Garbage collection refers to the mechanism of handling the memory in the program. Through garbage collection, the unwanted memory is freed up by removing the objects that are no longer needed.
